@@ -8,14 +8,17 @@ Tested with Stremio 3.6.5
 There is currently no hosted version. Run it yourself:
 
 ```
-npm start
+$ git clone https://github.com/sebastiencs/rarbg-addon.git
+$ cd rarbg-addon
+$ npm install
+$ npm start
 ```
 
-Then start Stremio:
+Then (re)start Stremio:
 
 
 ```
-./Stremio.sh --services=http://localhost:7000/stremioget/v1
+$ ./Stremio.sh --services=http://localhost:7000/stremioget/v1
 ```
 
 # Result
