@@ -9,6 +9,9 @@
   },
   "author": "Sebastien Chapuis",
   "license": "MIT",
+  "engines": {
+    "node": "6.10.0"
+  },
   "dependencies": {
     "magnet-uri": "^5.1.5",
     "stremio-addons": "^2.8.7",
