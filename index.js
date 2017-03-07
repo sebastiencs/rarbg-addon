@@ -14,6 +14,7 @@ const manifest = {
   "idProperty": "imdb_id",
   "name": "RARBG addon",
   "description": "Watch content from RARBG in Stremio",
+  "endpoint": "https://rarbg-addon.chapu.is/stremioget/stremio/v1",
   /* "icon": "URL to 256x256 monochrome png icon",
    * "background": "URL to 1366x756 png background",*/
 };

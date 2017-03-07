@@ -7,6 +7,14 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastiencs/rarbg-addon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sebastiencs/rarbg-addon/issues"
+  },
+  "homepage": "https://github.com/sebastiencs/rarbg-addon#readme",
   "author": "Sebastien Chapuis",
   "license": "MIT",
   "engines": {
