@@ -43,7 +43,7 @@ const find_stream = ({ imdb_id, episode, season, type }, callback) => {
         name: "RARBG",
         title: detail,
         isFree: true,
-        sources: announce,
+        sources: [...announce.map(src => `tracker:${src}`), `dht:${infoHash}`],
         availability
       };
     }).filter(elem => elem.availability > 0));
