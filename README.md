@@ -5,7 +5,9 @@ Tested with Stremio 3.6.5
 
 # How to run
 
-There is currently no hosted version. Run it yourself:
+You can install it on http://addons.strem.io/
+
+Or run it yourself:
 
 ```
 $ git clone https://github.com/sebastiencs/rarbg-addon.git
